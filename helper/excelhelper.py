@@ -104,7 +104,3 @@ def appendExcel(file_path, sheet_index, data, row_height=default_row_height, col
     wb.save(file_path)
 
 
-newExcelInsers("/home/zhongq/project/python/demo/xlsx/sy/5.xlsx",
-               "1", ["name", "age"], [['111111111111111111111111111111111111111111111111111111111111111111111111111111111111', '2222']])
-# appendExcel("/home/zhongq/project/python/demo/xlsx/5.xlsx", 0,
-#             [["11", "222", '333'], ["11", "222", '333'], ["11", "222", '333', '444444444444']])

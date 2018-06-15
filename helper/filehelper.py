@@ -1,7 +1,7 @@
 import os
 
 
-def readfilesize(filePath, formatType):
+def readfilesize(filePath, formatType="B"):
     formatType = formatType.upper()
 
     filePath = unicode(filePath, 'utf-8')
